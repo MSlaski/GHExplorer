@@ -15,7 +15,7 @@
 		408435DB24ADFF83006B4AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408435D924ADFF83006B4AF9 /* LaunchScreen.storyboard */; };
 		408435E424AE007E006B4AF9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 408435E324AE007E006B4AF9 /* .swiftlint.yml */; };
 		408435E824B26558006B4AF9 /* GHData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435E724B26558006B4AF9 /* GHData.swift */; };
-		408435EB24B2698F006B4AF9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435EA24B2698F006B4AF9 /* NetworkService.swift */; };
+		408435EB24B2698F006B4AF9 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435EA24B2698F006B4AF9 /* Router.swift */; };
 		91FB64F9024AA5724102B8FB /* Pods_GHExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537C84D1947275422B89BC53 /* Pods_GHExplorer.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		408435DC24ADFF83006B4AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408435E324AE007E006B4AF9 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		408435E724B26558006B4AF9 /* GHData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHData.swift; sourceTree = "<group>"; };
-		408435EA24B2698F006B4AF9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		408435EA24B2698F006B4AF9 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		537C84D1947275422B89BC53 /* Pods_GHExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		850CC3FCFEF45F074A576949 /* Pods-GHExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHExplorer.release.xcconfig"; path = "Target Support Files/Pods-GHExplorer/Pods-GHExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		BCDCFD5E609E09A9CDD218F9 /* Pods-GHExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHExplorer.debug.xcconfig"; path = "Target Support Files/Pods-GHExplorer/Pods-GHExplorer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		408435E924B2697F006B4AF9 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				408435EA24B2698F006B4AF9 /* NetworkService.swift */,
+				408435EA24B2698F006B4AF9 /* Router.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -241,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408435EB24B2698F006B4AF9 /* NetworkService.swift in Sources */,
+				408435EB24B2698F006B4AF9 /* Router.swift in Sources */,
 				408435E824B26558006B4AF9 /* GHData.swift in Sources */,
 				408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */,
 				408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */,
