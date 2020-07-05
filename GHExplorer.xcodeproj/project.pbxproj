@@ -14,6 +14,7 @@
 		408435D824ADFF83006B4AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408435D724ADFF83006B4AF9 /* Assets.xcassets */; };
 		408435DB24ADFF83006B4AF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 408435D924ADFF83006B4AF9 /* LaunchScreen.storyboard */; };
 		408435E424AE007E006B4AF9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 408435E324AE007E006B4AF9 /* .swiftlint.yml */; };
+		408435E824B26558006B4AF9 /* GHData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435E724B26558006B4AF9 /* GHData.swift */; };
 		91FB64F9024AA5724102B8FB /* Pods_GHExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 537C84D1947275422B89BC53 /* Pods_GHExplorer.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		408435DA24ADFF83006B4AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		408435DC24ADFF83006B4AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		408435E324AE007E006B4AF9 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		408435E724B26558006B4AF9 /* GHData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GHData.swift; sourceTree = "<group>"; };
 		537C84D1947275422B89BC53 /* Pods_GHExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		850CC3FCFEF45F074A576949 /* Pods-GHExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHExplorer.release.xcconfig"; path = "Target Support Files/Pods-GHExplorer/Pods-GHExplorer.release.xcconfig"; sourceTree = "<group>"; };
 		BCDCFD5E609E09A9CDD218F9 /* Pods-GHExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHExplorer.debug.xcconfig"; path = "Target Support Files/Pods-GHExplorer/Pods-GHExplorer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,16 +67,33 @@
 		408435CD24ADFF7F006B4AF9 /* GHExplorer */ = {
 			isa = PBXGroup;
 			children = (
-				408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */,
-				408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */,
+				408435E624B2644B006B4AF9 /* Model */,
+				408435E524B26431006B4AF9 /* Supporting Files */,
 				408435D224ADFF7F006B4AF9 /* ViewController.swift */,
 				408435D424ADFF7F006B4AF9 /* Main.storyboard */,
 				408435D724ADFF83006B4AF9 /* Assets.xcassets */,
 				408435D924ADFF83006B4AF9 /* LaunchScreen.storyboard */,
-				408435DC24ADFF83006B4AF9 /* Info.plist */,
 				408435E324AE007E006B4AF9 /* .swiftlint.yml */,
 			);
 			path = GHExplorer;
+			sourceTree = "<group>";
+		};
+		408435E524B26431006B4AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */,
+				408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */,
+				408435DC24ADFF83006B4AF9 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		408435E624B2644B006B4AF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				408435E724B26558006B4AF9 /* GHData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		4DBA20005C8BF2689661EF69 /* Pods */ = {
@@ -211,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				408435E824B26558006B4AF9 /* GHData.swift in Sources */,
 				408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */,
 				408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */,
 				408435D124ADFF7F006B4AF9 /* SceneDelegate.swift in Sources */,
@@ -360,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L22SG45YSY;
-				INFOPLIST_FILE = GHExplorer/Info.plist;
+				INFOPLIST_FILE = "GHExplorer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +399,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L22SG45YSY;
-				INFOPLIST_FILE = GHExplorer/Info.plist;
+				INFOPLIST_FILE = "GHExplorer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
