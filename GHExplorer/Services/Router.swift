@@ -9,7 +9,7 @@
 import Foundation
 
 enum Router {
-  case getRepos(query: String, page: String)
+  case getRepos(query: String, page: Int)
   case getAllUserRepos(name: String)
   
   var scheme: String {
@@ -36,7 +36,7 @@ enum Router {
         URLQueryItem(name: "q", value: query),
         URLQueryItem(name: "sort", value: "stars"),
         URLQueryItem(name: "order", value: "desc"),
-        URLQueryItem(name: "page", value: page)
+        URLQueryItem(name: "page", value: "\(page)")
       ]
     case .getAllUserRepos:
       return [
