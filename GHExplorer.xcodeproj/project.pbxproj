@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40825E3D24B739BF0069E342 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40825E3C24B739BF0069E342 /* NetworkMonitor.swift */; };
 		408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */; };
 		408435D124ADFF7F006B4AF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */; };
 		408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435D224ADFF7F006B4AF9 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40825E3C24B739BF0069E342 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		408435CB24ADFF7F006B4AF9 /* GHExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			children = (
 				408435EA24B2698F006B4AF9 /* Router.swift */,
 				408435ED24B26E0D006B4AF9 /* NetworkService.swift */,
+				40825E3C24B739BF0069E342 /* NetworkMonitor.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				408435E824B26558006B4AF9 /* GHData.swift in Sources */,
 				408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */,
 				408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */,
+				40825E3D24B739BF0069E342 /* NetworkMonitor.swift in Sources */,
 				408435EE24B26E0D006B4AF9 /* NetworkService.swift in Sources */,
 				408435D124ADFF7F006B4AF9 /* SceneDelegate.swift in Sources */,
 				408435F224B47D67006B4AF9 /* HTTPURLResponse+Extension.swift in Sources */,
