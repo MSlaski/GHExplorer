@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		40825E3D24B739BF0069E342 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40825E3C24B739BF0069E342 /* NetworkMonitor.swift */; };
+		40825E4024B848100069E342 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40825E3F24B848100069E342 /* Coordinator.swift */; };
 		408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */; };
 		408435D124ADFF7F006B4AF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */; };
 		408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408435D224ADFF7F006B4AF9 /* ViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		40825E3C24B739BF0069E342 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		40825E3F24B848100069E342 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		408435CB24ADFF7F006B4AF9 /* GHExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408435CE24ADFF7F006B4AF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		408435D024ADFF7F006B4AF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40825E3E24B848050069E342 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				40825E3F24B848100069E342 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		408435C224ADFF7F006B4AF9 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +87,7 @@
 		408435CD24ADFF7F006B4AF9 /* GHExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				40825E3E24B848050069E342 /* Coordinator */,
 				408435F024B47D50006B4AF9 /* Extensions */,
 				408435E924B2697F006B4AF9 /* Services */,
 				408435E624B2644B006B4AF9 /* Model */,
@@ -263,6 +274,7 @@
 			files = (
 				408435F424B47EB2006B4AF9 /* String+Extension.swift in Sources */,
 				408435EB24B2698F006B4AF9 /* Router.swift in Sources */,
+				40825E4024B848100069E342 /* Coordinator.swift in Sources */,
 				408435E824B26558006B4AF9 /* GHData.swift in Sources */,
 				408435D324ADFF7F006B4AF9 /* ViewController.swift in Sources */,
 				408435CF24ADFF7F006B4AF9 /* AppDelegate.swift in Sources */,
